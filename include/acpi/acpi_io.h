@@ -1,7 +1,7 @@
 #ifndef _ACPI_IO_H_
 #define _ACPI_IO_H_
 
-#include <linux/io.h>
+#include <sys/io.h>
 
 #include <asm/acpi.h>
 

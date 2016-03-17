@@ -22,8 +22,8 @@
 #ifndef __ACPI_BUS_H__
 #define __ACPI_BUS_H__
 
-#include <linux/device.h>
-#include <linux/property.h>
+#include <sys/device.h>
+#include <sys/property.h>
 
 /* TBD: Make dynamic */
 #define ACPI_MAX_HANDLES	10
@@ -91,7 +91,7 @@ bool acpi_dev_present(const char *hid);
 
 #ifdef CONFIG_ACPI
 
-#include <linux/proc_fs.h>
+#include <sys/proc_fs.h>
 
 #define ACPI_BUS_FILE_ROOT	"acpi"
 extern struct proc_dir_entry *acpi_root_dir;

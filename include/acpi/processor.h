@@ -1,9 +1,9 @@
 #ifndef __ACPI_PROCESSOR_H
 #define __ACPI_PROCESSOR_H
 
-#include <linux/kernel.h>
-#include <linux/cpu.h>
-#include <linux/thermal.h>
+#include <sys/kernel.h>
+#include <sys/cpu.h>
+#include <sys/thermal.h>
 #include <asm/acpi.h>
 
 #define ACPI_PROCESSOR_CLASS		"processor"

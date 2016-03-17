@@ -1,8 +1,8 @@
 #ifndef __ACPI_VIDEO_H
 #define __ACPI_VIDEO_H
 
-#include <linux/errno.h> /* for ENODEV */
-#include <linux/types.h> /* for bool */
+#include <sys/errno.h> /* for ENODEV */
+#include <sys/types.h> /* for bool */
 
 struct acpi_device;
 

@@ -1,7 +1,7 @@
 #ifndef ACPI_BUTTON_H
 #define ACPI_BUTTON_H
 
-#include <linux/notifier.h>
+#include <sys/notifier.h>
 
 #if IS_ENABLED(CONFIG_ACPI_BUTTON)
 extern int acpi_lid_notifier_register(struct notifier_block *nb);

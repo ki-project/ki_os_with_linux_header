@@ -73,16 +73,16 @@
 #define ACPI_DEBUGGER
 #endif
 
-#include <linux/string.h>
-#include <linux/kernel.h>
-#include <linux/ctype.h>
-#include <linux/sched.h>
-#include <linux/atomic.h>
-#include <linux/math64.h>
-#include <linux/slab.h>
-#include <linux/spinlock_types.h>
+#include <sys/string.h>
+#include <sys/kernel.h>
+#include <sys/ctype.h>
+#include <sys/sched.h>
+#include <sys/atomic.h>
+#include <sys/math64.h>
+#include <sys/slab.h>
+#include <sys/spinlock_types.h>
 #ifdef EXPORT_ACPI_INTERFACES
-#include <linux/export.h>
+#include <sys/export.h>
 #endif
 #ifdef CONFIG_ACPI
 #include <asm/acenv.h>

@@ -14,10 +14,10 @@
 #ifndef _CPPC_ACPI_H
 #define _CPPC_ACPI_H
 
-#include <linux/acpi.h>
-#include <linux/mailbox_controller.h>
-#include <linux/mailbox_client.h>
-#include <linux/types.h>
+#include <sys/acpi.h>
+#include <sys/mailbox_controller.h>
+#include <sys/mailbox_client.h>
+#include <sys/types.h>
 
 #include <acpi/processor.h>
 
