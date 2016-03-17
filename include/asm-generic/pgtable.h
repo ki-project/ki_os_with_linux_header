@@ -1,14 +1,14 @@
 #ifndef _ASM_GENERIC_PGTABLE_H
 #define _ASM_GENERIC_PGTABLE_H
 
-#include <linux/pfn.h>
+#include <sys/pfn.h>
 
 #ifndef __ASSEMBLY__
 #ifdef CONFIG_MMU
 
-#include <linux/mm_types.h>
-#include <linux/bug.h>
-#include <linux/errno.h>
+#include <sys/mm_types.h>
+#include <sys/bug.h>
+#include <sys/errno.h>
 
 #if 4 - defined(__PAGETABLE_PUD_FOLDED) - defined(__PAGETABLE_PMD_FOLDED) != \
 	CONFIG_PGTABLE_LEVELS

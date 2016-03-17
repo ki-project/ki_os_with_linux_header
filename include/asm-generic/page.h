@@ -5,10 +5,6 @@
  * This provides the dummy definitions for the memory management.
  */
 
-#ifdef CONFIG_MMU
-#error need to prove a real asm/page.h
-#endif
-
 
 /* PAGE_SHIFT determines the page size */
 

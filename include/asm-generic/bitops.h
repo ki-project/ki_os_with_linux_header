@@ -9,8 +9,8 @@
  * C language equivalents written by Theodore Ts'o, 9/26/92
  */
 
-#include <linux/irqflags.h>
-#include <linux/compiler.h>
+#include <sys/irqflags.h>
+#include <sys/compiler.h>
 #include <asm/barrier.h>
 
 #include <asm-generic/bitops/__ffs.h>
@@ -19,10 +19,6 @@
 #include <asm-generic/bitops/__fls.h>
 #include <asm-generic/bitops/fls64.h>
 #include <asm-generic/bitops/find.h>
-
-#ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
-#endif
 
 #include <asm-generic/bitops/sched.h>
 #include <asm-generic/bitops/ffs.h>

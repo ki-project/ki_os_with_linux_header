@@ -20,8 +20,8 @@
  *       beware of side effects!
  */
 
-#include <linux/types.h>
-#include <linux/compiler.h>
+#include <sys/types.h>
+#include <sys/compiler.h>
 
 #if BITS_PER_LONG == 64
 

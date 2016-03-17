@@ -12,12 +12,12 @@
 #ifndef __ASM_RTC_H__
 #define __ASM_RTC_H__
 
-#include <linux/mc146818rtc.h>
-#include <linux/rtc.h>
-#include <linux/bcd.h>
-#include <linux/delay.h>
+#include <sys/mc146818rtc.h>
+#include <sys/rtc.h>
+#include <sys/bcd.h>
+#include <sys/delay.h>
 #ifdef CONFIG_ACPI
-#include <linux/acpi.h>
+#include <sys/acpi.h>
 #endif
 
 #define RTC_PIE 0x40		/* periodic interrupt enable */

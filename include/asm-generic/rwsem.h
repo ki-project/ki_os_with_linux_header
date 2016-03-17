@@ -2,7 +2,7 @@
 #define _ASM_GENERIC_RWSEM_H
 
 #ifndef _LINUX_RWSEM_H
-#error "Please don't include <asm/rwsem.h> directly, use <linux/rwsem.h> instead."
+#error "Please don't include <asm/rwsem.h> directly, use <sys/rwsem.h> instead."
 #endif
 
 #ifdef __KERNEL__

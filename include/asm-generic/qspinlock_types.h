@@ -24,8 +24,8 @@
  * it if PARAVIRT is on.
  */
 #ifndef CONFIG_PARAVIRT
-#include <linux/types.h>
-#include <linux/atomic.h>
+#include <sys/types.h>
+#include <sys/atomic.h>
 #endif
 
 typedef struct qspinlock {

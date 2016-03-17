@@ -63,7 +63,7 @@ static inline int atomic_##op##_return(int i, atomic_t *v)		\
 
 #else
 
-#include <linux/irqflags.h>
+#include <sys/irqflags.h>
 
 #define ATOMIC_OP(op, c_op)						\
 static inline void atomic_##op(int i, atomic_t *v)			\
@@ -139,7 +139,7 @@ ATOMIC_OP(xor, ^)
  */
 #define atomic_set(v, i) WRITE_ONCE(((v)->counter), (i))
 
-#include <linux/irqflags.h>
+#include <sys/irqflags.h>
 
 static inline int atomic_add_negative(int i, atomic_t *v)
 {

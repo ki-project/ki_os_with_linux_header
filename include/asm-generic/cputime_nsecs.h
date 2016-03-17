@@ -16,7 +16,7 @@
 #ifndef _ASM_GENERIC_CPUTIME_NSECS_H
 #define _ASM_GENERIC_CPUTIME_NSECS_H
 
-#include <linux/math64.h>
+#include <sys/math64.h>
 
 typedef u64 __nocast cputime_t;
 typedef u64 __nocast cputime64_t;

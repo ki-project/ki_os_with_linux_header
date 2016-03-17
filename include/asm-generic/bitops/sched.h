@@ -1,7 +1,7 @@
 #ifndef _ASM_GENERIC_BITOPS_SCHED_H_
 #define _ASM_GENERIC_BITOPS_SCHED_H_
 
-#include <linux/compiler.h>	/* unlikely() */
+#include <sys/compiler.h>	/* unlikely() */
 #include <asm/types.h>
 
 /*

@@ -15,7 +15,7 @@
 #ifndef __ASM_GENERIC_FIXMAP_H
 #define __ASM_GENERIC_FIXMAP_H
 
-#include <linux/bug.h>
+#include <sys/bug.h>
 
 #define __fix_to_virt(x)	(FIXADDR_TOP - ((x) << PAGE_SHIFT))
 #define __virt_to_fix(x)	((FIXADDR_TOP - ((x)&PAGE_MASK)) >> PAGE_SHIFT)

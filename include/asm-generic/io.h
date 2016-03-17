@@ -12,8 +12,8 @@
 #define __ASM_GENERIC_IO_H
 
 #include <asm/page.h> /* I/O is all done through memory accesses */
-#include <linux/string.h> /* for memset() and memcpy() */
-#include <linux/types.h>
+#include <sys/string.h> /* for memset() and memcpy() */
+#include <sys/types.h>
 
 #ifdef CONFIG_GENERIC_IOMAP
 #include <asm-generic/iomap.h>

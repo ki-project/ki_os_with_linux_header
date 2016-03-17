@@ -4,7 +4,7 @@
 #ifndef _ASM_GENERIC_PCI_DMA_COMPAT_H
 #define _ASM_GENERIC_PCI_DMA_COMPAT_H
 
-#include <linux/dma-mapping.h>
+#include <sys/dma-mapping.h>
 
 static inline void *
 pci_alloc_consistent(struct pci_dev *hwdev, size_t size,

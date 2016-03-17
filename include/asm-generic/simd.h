@@ -1,5 +1,5 @@
 
-#include <linux/hardirq.h>
+#include <sys/hardirq.h>
 
 /*
  * may_use_simd - whether it is allowable at this time to issue SIMD

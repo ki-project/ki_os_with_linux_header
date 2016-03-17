@@ -1,5 +1,5 @@
 #include <uapi/asm-generic/unistd.h>
-#include <linux/export.h>
+#include <sys/export.h>
 
 /*
  * These are required system calls, we should

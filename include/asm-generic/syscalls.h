@@ -1,8 +1,8 @@
 #ifndef __ASM_GENERIC_SYSCALLS_H
 #define __ASM_GENERIC_SYSCALLS_H
 
-#include <linux/compiler.h>
-#include <linux/linkage.h>
+#include <sys/compiler.h>
+#include <sys/linkage.h>
 
 /*
  * Calling conventions for these system calls can differ, so

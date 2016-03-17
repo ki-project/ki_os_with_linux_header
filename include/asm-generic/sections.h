@@ -3,8 +3,8 @@
 
 /* References to section boundaries */
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include <sys/compiler.h>
+#include <sys/types.h>
 
 /*
  * Usage guidelines:

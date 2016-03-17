@@ -1,7 +1,7 @@
 #ifndef __ASM_MEMORY_MODEL_H
 #define __ASM_MEMORY_MODEL_H
 
-#include <linux/pfn.h>
+#include <sys/pfn.h>
 
 #ifndef __ASSEMBLY__
 

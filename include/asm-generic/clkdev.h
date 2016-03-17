@@ -13,7 +13,7 @@
 #ifndef __ASM_CLKDEV_H
 #define __ASM_CLKDEV_H
 
-#include <linux/slab.h>
+#include <sys/slab.h>
 
 #ifndef CONFIG_COMMON_CLK
 struct clk;

@@ -1,7 +1,7 @@
 #ifndef __ASM_GENERIC_MSI_H
 #define __ASM_GENERIC_MSI_H
 
-#include <linux/types.h>
+#include <sys/types.h>
 
 #ifndef NUM_MSI_ALLOC_SCRATCHPAD_REGS
 # define NUM_MSI_ALLOC_SCRATCHPAD_REGS	2
