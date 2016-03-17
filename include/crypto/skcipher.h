@@ -13,9 +13,9 @@
 #ifndef _CRYPTO_SKCIPHER_H
 #define _CRYPTO_SKCIPHER_H
 
-#include <linux/crypto.h>
-#include <linux/kernel.h>
-#include <linux/slab.h>
+#include <sys/crypto.h>
+#include <sys/kernel.h>
+#include <sys/slab.h>
 
 /**
  *	struct skcipher_request - Symmetric key cipher request
@@ -503,4 +503,3 @@ static inline void skcipher_request_set_crypt(
 }
 
 #endif	/* _CRYPTO_SKCIPHER_H */
-

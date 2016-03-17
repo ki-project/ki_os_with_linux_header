@@ -18,12 +18,12 @@
 
 #include <asm/kmap_types.h>
 #include <crypto/algapi.h>
-#include <linux/hardirq.h>
-#include <linux/highmem.h>
-#include <linux/kernel.h>
-#include <linux/mm.h>
-#include <linux/scatterlist.h>
-#include <linux/sched.h>
+#include <sys/hardirq.h>
+#include <sys/highmem.h>
+#include <sys/kernel.h>
+#include <sys/mm.h>
+#include <sys/scatterlist.h>
+#include <sys/sched.h>
 
 static inline void scatterwalk_crypto_chain(struct scatterlist *head,
 					    struct scatterlist *sg,

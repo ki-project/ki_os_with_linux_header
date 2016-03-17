@@ -10,8 +10,8 @@
 #ifndef _CRYPTO_MCRYPT_H
 #define _CRYPTO_MCRYPT_H
 
-#include <linux/crypto.h>
-#include <linux/kernel.h>
+#include <sys/crypto.h>
+#include <sys/kernel.h>
 #include <crypto/hash.h>
 
 struct mcryptd_ahash {

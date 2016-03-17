@@ -12,7 +12,7 @@
  */
 #ifndef _RSA_HELPER_
 #define _RSA_HELPER_
-#include <linux/mpi.h>
+#include <sys/mpi.h>
 
 struct rsa_key {
 	MPI n;

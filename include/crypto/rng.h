@@ -14,7 +14,7 @@
 #ifndef _CRYPTO_RNG_H
 #define _CRYPTO_RNG_H
 
-#include <linux/crypto.h>
+#include <sys/crypto.h>
 
 struct crypto_rng;
 

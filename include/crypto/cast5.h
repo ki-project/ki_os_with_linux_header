@@ -1,8 +1,8 @@
 #ifndef _CRYPTO_CAST5_H
 #define _CRYPTO_CAST5_H
 
-#include <linux/types.h>
-#include <linux/crypto.h>
+#include <sys/types.h>
+#include <sys/crypto.h>
 #include <crypto/cast_common.h>
 
 #define CAST5_BLOCK_SIZE 8

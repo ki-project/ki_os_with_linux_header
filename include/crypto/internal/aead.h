@@ -15,8 +15,8 @@
 
 #include <crypto/aead.h>
 #include <crypto/algapi.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
+#include <sys/stddef.h>
+#include <sys/types.h>
 
 struct rtattr;
 
@@ -161,4 +161,3 @@ int aead_register_instance(struct crypto_template *tmpl,
 			   struct aead_instance *inst);
 
 #endif	/* _CRYPTO_INTERNAL_AEAD_H */
-

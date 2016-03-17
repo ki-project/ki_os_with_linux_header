@@ -15,7 +15,7 @@
 
 #include <crypto/algapi.h>
 #include <crypto/skcipher.h>
-#include <linux/types.h>
+#include <sys/types.h>
 
 struct rtattr;
 
@@ -123,4 +123,3 @@ static inline u32 skcipher_request_flags(struct skcipher_request *req)
 }
 
 #endif	/* _CRYPTO_INTERNAL_SKCIPHER_H */
-

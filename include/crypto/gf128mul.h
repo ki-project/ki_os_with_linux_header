@@ -50,7 +50,7 @@
 #define _CRYPTO_GF128MUL_H
 
 #include <crypto/b128ops.h>
-#include <linux/slab.h>
+#include <sys/slab.h>
 
 /* Comment by Rik:
  *

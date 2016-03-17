@@ -12,10 +12,10 @@
 #ifndef _CRYPTO_ALGAPI_H
 #define _CRYPTO_ALGAPI_H
 
-#include <linux/crypto.h>
-#include <linux/list.h>
-#include <linux/kernel.h>
-#include <linux/skbuff.h>
+#include <sys/crypto.h>
+#include <sys/list.h>
+#include <sys/kernel.h>
+#include <sys/skbuff.h>
 
 struct crypto_aead;
 struct crypto_instance;

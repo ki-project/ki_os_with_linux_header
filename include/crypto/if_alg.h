@@ -13,11 +13,11 @@
 #ifndef _CRYPTO_IF_ALG_H
 #define _CRYPTO_IF_ALG_H
 
-#include <linux/compiler.h>
-#include <linux/completion.h>
-#include <linux/if_alg.h>
-#include <linux/scatterlist.h>
-#include <linux/types.h>
+#include <sys/compiler.h>
+#include <sys/completion.h>
+#include <sys/if_alg.h>
+#include <sys/scatterlist.h>
+#include <sys/types.h>
 #include <net/sock.h>
 
 #define ALG_MAX_PAGES			16

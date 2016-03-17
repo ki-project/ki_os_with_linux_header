@@ -12,8 +12,8 @@
 #ifndef _CRYPTO_CRYPT_H
 #define _CRYPTO_CRYPT_H
 
-#include <linux/crypto.h>
-#include <linux/kernel.h>
+#include <sys/crypto.h>
+#include <sys/kernel.h>
 #include <crypto/aead.h>
 #include <crypto/hash.h>
 

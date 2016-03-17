@@ -5,8 +5,8 @@
 #ifndef _CRYPTO_CHACHA20_H
 #define _CRYPTO_CHACHA20_H
 
-#include <linux/types.h>
-#include <linux/crypto.h>
+#include <sys/types.h>
+#include <sys/crypto.h>
 
 #define CHACHA20_IV_SIZE	16
 #define CHACHA20_KEY_SIZE	32

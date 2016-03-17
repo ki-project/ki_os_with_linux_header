@@ -14,7 +14,7 @@
 #ifndef _LINUX_PUBLIC_KEY_H
 #define _LINUX_PUBLIC_KEY_H
 
-#include <linux/mpi.h>
+#include <sys/mpi.h>
 #include <crypto/hash_info.h>
 
 enum pkey_algo {

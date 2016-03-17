@@ -10,8 +10,8 @@
 
 #include <crypto/internal/hash.h>
 #include <crypto/sha.h>
-#include <linux/crypto.h>
-#include <linux/module.h>
+#include <sys/crypto.h>
+#include <sys/module.h>
 
 #include <asm/unaligned.h>
 
