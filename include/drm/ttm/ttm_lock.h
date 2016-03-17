@@ -50,8 +50,8 @@
 #define _TTM_LOCK_H_
 
 #include <ttm/ttm_object.h>
-#include <linux/wait.h>
-#include <linux/atomic.h>
+#include <sys/wait.h>
+#include <sys/atomic.h>
 
 /**
  * struct ttm_lock

@@ -36,12 +36,12 @@
 /*
  * Generic range manager structs
  */
-#include <linux/bug.h>
-#include <linux/kernel.h>
-#include <linux/list.h>
-#include <linux/spinlock.h>
+#include <sys/bug.h>
+#include <sys/kernel.h>
+#include <sys/list.h>
+#include <sys/spinlock.h>
 #ifdef CONFIG_DEBUG_FS
-#include <linux/seq_file.h>
+#include <sys/seq_file.h>
 #endif
 
 enum drm_mm_search_flags {

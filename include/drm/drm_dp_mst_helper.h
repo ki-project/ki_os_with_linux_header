@@ -22,7 +22,7 @@
 #ifndef _DRM_DP_MST_HELPER_H_
 #define _DRM_DP_MST_HELPER_H_
 
-#include <linux/types.h>
+#include <sys/types.h>
 #include <drm/drm_dp_helper.h>
 
 struct drm_dp_mst_branch;

@@ -24,12 +24,12 @@
  */
 
 #include <drm/drm_mm.h>
-#include <linux/fs.h>
-#include <linux/mm.h>
-#include <linux/module.h>
-#include <linux/rbtree.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
+#include <sys/fs.h>
+#include <sys/mm.h>
+#include <sys/module.h>
+#include <sys/rbtree.h>
+#include <sys/spinlock.h>
+#include <sys/types.h>
 
 struct drm_vma_offset_file {
 	struct rb_node vm_rb;

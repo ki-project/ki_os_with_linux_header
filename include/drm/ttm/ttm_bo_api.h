@@ -33,13 +33,13 @@
 
 #include <drm/drm_hashtab.h>
 #include <drm/drm_vma_manager.h>
-#include <linux/kref.h>
-#include <linux/list.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
-#include <linux/mm.h>
-#include <linux/bitmap.h>
-#include <linux/reservation.h>
+#include <sys/kref.h>
+#include <sys/list.h>
+#include <sys/wait.h>
+#include <sys/mutex.h>
+#include <sys/mm.h>
+#include <sys/bitmap.h>
+#include <sys/reservation.h>
 
 struct ttm_bo_device;
 

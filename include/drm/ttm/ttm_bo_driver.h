@@ -37,10 +37,10 @@
 #include <drm/drm_mm.h>
 #include <drm/drm_global.h>
 #include <drm/drm_vma_manager.h>
-#include <linux/workqueue.h>
-#include <linux/fs.h>
-#include <linux/spinlock.h>
-#include <linux/reservation.h>
+#include <sys/workqueue.h>
+#include <sys/fs.h>
+#include <sys/spinlock.h>
+#include <sys/reservation.h>
 
 struct ttm_backend_func {
 	/**

@@ -32,7 +32,7 @@
 #define _TTM_EXECBUF_UTIL_H_
 
 #include <ttm/ttm_bo_api.h>
-#include <linux/list.h>
+#include <sys/list.h>
 
 /**
  * struct ttm_validate_buffer

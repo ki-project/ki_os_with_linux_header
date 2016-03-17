@@ -25,13 +25,13 @@
 #ifndef __DRM_CRTC_H__
 #define __DRM_CRTC_H__
 
-#include <linux/i2c.h>
-#include <linux/spinlock.h>
-#include <linux/types.h>
-#include <linux/idr.h>
-#include <linux/fb.h>
-#include <linux/hdmi.h>
-#include <linux/media-bus-format.h>
+#include <sys/i2c.h>
+#include <sys/spinlock.h>
+#include <sys/types.h>
+#include <sys/idr.h>
+#include <sys/fb.h>
+#include <sys/hdmi.h>
+#include <sys/media-bus-format.h>
 #include <uapi/drm/drm_mode.h>
 #include <uapi/drm/drm_fourcc.h>
 #include <drm/drm_modeset_lock.h>

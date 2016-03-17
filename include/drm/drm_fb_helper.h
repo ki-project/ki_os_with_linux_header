@@ -32,7 +32,7 @@
 
 struct drm_fb_helper;
 
-#include <linux/kgdb.h>
+#include <sys/kgdb.h>
 
 enum mode_set_atomic {
 	LEAVE_ATOMIC_MODE_SET,

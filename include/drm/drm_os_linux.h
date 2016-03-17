@@ -3,8 +3,8 @@
  * OS abstraction macros.
  */
 
-#include <linux/interrupt.h>	/* For task queue support */
-#include <linux/delay.h>
+#include <sys/interrupt.h>	/* For task queue support */
+#include <sys/delay.h>
 
 #ifndef readq
 static inline u64 readq(void __iomem *reg)
