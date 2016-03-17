@@ -1,17 +1,17 @@
-#ifndef _LINUX_KERNEL_H
-#define _LINUX_KERNEL_H
+#ifndef _KERNEL_H_
+#define _KERNEL_H_
 
 
 #include <stdarg.h>
-#include <linux/linkage.h>
-#include <linux/stddef.h>
-#include <linux/types.h>
-#include <linux/compiler.h>
-#include <linux/bitops.h>
-#include <linux/log2.h>
-#include <linux/typecheck.h>
-#include <linux/printk.h>
-#include <linux/dynamic_debug.h>
+#include <sys/linkage.h>
+#include <sys/stddef.h>
+#include <sys/types.h>
+#include <sys/compiler.h>
+#include <sys/bitops.h>
+#include <sys/log2.h>
+#include <sys/typecheck.h>
+#include <sys/printk.h>
+#include <sys/dynamic_debug.h>
 #include <asm/byteorder.h>
 #include <uapi/linux/kernel.h>
 

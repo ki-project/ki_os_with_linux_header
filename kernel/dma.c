@@ -9,14 +9,14 @@
  *   [It also happened to remove the sizeof(char *) == sizeof(int)
  *   assumption introduced because of those /proc/dma patches. -- Hennus]
  */
-#include <linux/export.h>
-#include <linux/kernel.h>
-#include <linux/errno.h>
-#include <linux/spinlock.h>
-#include <linux/string.h>
-#include <linux/seq_file.h>
-#include <linux/proc_fs.h>
-#include <linux/init.h>
+#include <sys/export.h>
+#include <sys/kernel.h>
+#include <sys/errno.h>
+#include <sys/spinlock.h>
+#include <sys/string.h>
+#include <sys/seq_file.h>
+#include <sys/proc_fs.h>
+#include <sys/init.h>
 #include <asm/dma.h>
 
 
