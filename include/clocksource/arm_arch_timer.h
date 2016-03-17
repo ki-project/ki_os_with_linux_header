@@ -16,8 +16,8 @@
 #ifndef __CLKSOURCE_ARM_ARCH_TIMER_H
 #define __CLKSOURCE_ARM_ARCH_TIMER_H
 
-#include <linux/timecounter.h>
-#include <linux/types.h>
+#include <sys/timecounter.h>
+#include <sys/types.h>
 
 #define ARCH_TIMER_CTRL_ENABLE		(1 << 0)
 #define ARCH_TIMER_CTRL_IT_MASK		(1 << 1)
