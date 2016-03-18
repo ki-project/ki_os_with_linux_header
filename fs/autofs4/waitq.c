@@ -11,10 +11,10 @@
  *
  * ------------------------------------------------------------------------- */
 
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/signal.h>
-#include <linux/file.h>
+#include <sys/slab.h>
+#include <sys/time.h>
+#include <sys/signal.h>
+#include <sys/file.h>
 #include "autofs_i.h"
 
 /* We make this a static variable rather than a part of the superblock; it
@@ -562,4 +562,3 @@ int autofs4_wait_release(struct autofs_sb_info *sbi, autofs_wqt_t wait_queue_tok
 
 	return 0;
 }
-

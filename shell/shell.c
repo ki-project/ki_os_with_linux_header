@@ -1,4 +1,5 @@
 #include "shell.h"
+#include "_start_ki.c"
 
 void init_shell() {
   add_new_command("help", "Shell Help.", help_command);
@@ -24,7 +25,7 @@ void add_new_command(char *name, char* description, void *function) {
 }
 
 void shell() {
-  puts("\nMy_Prompt>");
+  puts("\n> ");
   gets(input_string);
   int i = findCommand(input_string);
   if(i >= 0) {

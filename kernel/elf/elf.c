@@ -1,3 +1,6 @@
+#include <sys/types.h>
+#include "elf.h"
+
 bool elf_check_file(Elf32_Ehdr *hdr) {
   if(!hdr)
     return false; 

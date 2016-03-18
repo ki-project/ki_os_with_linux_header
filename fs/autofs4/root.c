@@ -1,6 +1,6 @@
 /* -*- c -*- --------------------------------------------------------------- *
  *
- * linux/fs/autofs/root.c
+ * fs/autofs/root.c
  *
  *  Copyright 1997-1998 Transmeta Corporation -- All Rights Reserved
  *  Copyright 1999-2000 Jeremy Fitzhardinge <jeremy@goop.org>
@@ -12,14 +12,14 @@
  *
  * ------------------------------------------------------------------------- */
 
-#include <linux/capability.h>
-#include <linux/errno.h>
-#include <linux/stat.h>
-#include <linux/slab.h>
-#include <linux/param.h>
-#include <linux/time.h>
-#include <linux/compat.h>
-#include <linux/mutex.h>
+#include <sys/capability.h>
+#include <sys/errno.h>
+#include <sys/stat.h>
+#include <sys/slab.h>
+#include <sys/param.h>
+#include <sys/time.h>
+#include <sys/compat.h>
+#include <sys/mutex.h>
 
 #include "autofs_i.h"
 

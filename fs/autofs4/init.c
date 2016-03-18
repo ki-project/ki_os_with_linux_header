@@ -1,6 +1,6 @@
 /* -*- c -*- --------------------------------------------------------------- *
  *
- * linux/fs/autofs/init.c
+ * fs/autofs/init.c
  *
  *  Copyright 1997-1998 Transmeta Corporation -- All Rights Reserved
  *
@@ -10,8 +10,8 @@
  *
  * ------------------------------------------------------------------------- */
 
-#include <linux/module.h>
-#include <linux/init.h>
+#include <sys/module.h>
+#include <sys/init.h>
 #include "autofs_i.h"
 
 static struct dentry *autofs_mount(struct file_system_type *fs_type,

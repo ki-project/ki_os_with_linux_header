@@ -5,6 +5,9 @@
 #define KERN_WARN "[WARN]"
 #define KERN_ERROR "[ERROR]"
 
+#define STACKERR -8
+#define STACKCONV 1
+
 typedef struct {
   uint32_t eax, ebx, ecx, edx, esi, edi, esp, ebp, eip, eflags, cr3;
 } register_t;

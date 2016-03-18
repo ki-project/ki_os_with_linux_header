@@ -7,22 +7,22 @@
  * option, any later version, incorporated herein by reference.
  */
 
-#include <linux/module.h>
-#include <linux/vmalloc.h>
-#include <linux/miscdevice.h>
-#include <linux/init.h>
-#include <linux/wait.h>
-#include <linux/namei.h>
-#include <linux/fcntl.h>
-#include <linux/file.h>
-#include <linux/fdtable.h>
-#include <linux/sched.h>
-#include <linux/compat.h>
-#include <linux/syscalls.h>
-#include <linux/magic.h>
-#include <linux/dcache.h>
-#include <linux/uaccess.h>
-#include <linux/slab.h>
+#include <sys/module.h>
+#include <sys/vmalloc.h>
+#include <sys/miscdevice.h>
+#include <sys/init.h>
+#include <sys/wait.h>
+#include <sys/namei.h>
+#include <sys/fcntl.h>
+#include <sys/file.h>
+#include <sys/fdtable.h>
+#include <sys/sched.h>
+#include <sys/compat.h>
+#include <sys/syscalls.h>
+#include <sys/magic.h>
+#include <sys/dcache.h>
+#include <sys/uaccess.h>
+#include <sys/slab.h>
 
 #include "autofs_i.h"
 
@@ -759,4 +759,3 @@ void autofs_dev_ioctl_exit(void)
 	misc_deregister(&_autofs_dev_ioctl_misc);
 	return;
 }
-

@@ -1,6 +1,6 @@
 /* -*- c -*- --------------------------------------------------------------- *
  *
- * linux/fs/autofs/expire.c
+ * fs/autofs/expire.c
  *
  *  Copyright 1997-1998 Transmeta Corporation -- All Rights Reserved
  *  Copyright 1999-2000 Jeremy Fitzhardinge <jeremy@goop.org>
@@ -600,4 +600,3 @@ int autofs4_expire_multi(struct super_block *sb, struct vfsmount *mnt,
 
 	return autofs4_do_expire_multi(sb, mnt, sbi, do_now);
 }
-

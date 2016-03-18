@@ -1,4 +1,7 @@
-# include <stdint.h>
+#include <stdint.h>
+
+#ifndef _elf_elf_h_
+#define _elf_elf_h_
 
 typedef uint16_t Elf32_Half;	// Unsigned half int
 typedef uint32_t Elf32_Off;	// Unsigned offset
@@ -143,3 +146,5 @@ typedef struct {
   Elf32_Word p_flags;
   Elf32_Word p_align;
 } Elf32_Phdr;
+
+#endif _elf_elf_h_

@@ -1,6 +1,6 @@
 /* -*- c -*- ------------------------------------------------------------- *
  *   
- * linux/fs/autofs/autofs_i.h
+ * fs/autofs/autofs_i.h
  *
  *   Copyright 1997-1998 Transmeta Corporation - All Rights Reserved
  *   Copyright 2005-2006 Ian Kent <raven@themaw.net>
@@ -13,11 +13,11 @@
 
 /* Internal header file for autofs */
 
-#include <linux/auto_fs4.h>
-#include <linux/auto_dev-ioctl.h>
-#include <linux/mutex.h>
-#include <linux/spinlock.h>
-#include <linux/list.h>
+#include <sys/auto_fs4.h>
+#include <sys/auto_dev-ioctl.h>
+#include <sys/mutex.h>
+#include <sys/spinlock.h>
+#include <sys/list.h>
 
 /* This is the range of ioctl() numbers we claim as ours */
 #define AUTOFS_IOC_FIRST     AUTOFS_IOC_READY
@@ -26,14 +26,14 @@
 #define AUTOFS_DEV_IOCTL_IOC_FIRST	(AUTOFS_DEV_IOCTL_VERSION)
 #define AUTOFS_DEV_IOCTL_IOC_COUNT	(AUTOFS_IOC_COUNT - 11)
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/time.h>
-#include <linux/string.h>
-#include <linux/wait.h>
-#include <linux/sched.h>
-#include <linux/mount.h>
-#include <linux/namei.h>
+#include <sys/kernel.h>
+#include <sys/slab.h>
+#include <sys/time.h>
+#include <sys/string.h>
+#include <sys/wait.h>
+#include <sys/sched.h>
+#include <sys/mount.h>
+#include <sys/namei.h>
 #include <asm/current.h>
 #include <asm/uaccess.h>
 

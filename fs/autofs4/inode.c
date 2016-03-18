@@ -1,6 +1,6 @@
 /* -*- c -*- --------------------------------------------------------------- *
  *
- * linux/fs/autofs/inode.c
+ * fs/autofs/inode.c
  *
  *  Copyright 1997-1998 Transmeta Corporation -- All Rights Reserved
  *  Copyright 2005-2006 Ian Kent <raven@themaw.net>
@@ -11,16 +11,16 @@
  *
  * ------------------------------------------------------------------------- */
 
-#include <linux/kernel.h>
-#include <linux/slab.h>
-#include <linux/file.h>
-#include <linux/seq_file.h>
-#include <linux/pagemap.h>
-#include <linux/parser.h>
-#include <linux/bitops.h>
-#include <linux/magic.h>
+#include <sys/kernel.h>
+#include <sys/slab.h>
+#include <sys/file.h>
+#include <sys/seq_file.h>
+#include <sys/pagemap.h>
+#include <sys/parser.h>
+#include <sys/bitops.h>
+#include <sys/magic.h>
 #include "autofs_i.h"
-#include <linux/module.h>
+#include <sys/module.h>
 
 struct autofs_info *autofs4_new_ino(struct autofs_sb_info *sbi)
 {

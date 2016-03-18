@@ -22,7 +22,4 @@ uint16 inw(uint16 port)
    return ret;
 }
 
-#define cli() asm volatile ("cli"::);
-#define sti() asm volatile ("sti"::);
-
 #endif //io_h_
