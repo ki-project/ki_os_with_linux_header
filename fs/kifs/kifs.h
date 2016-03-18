@@ -54,4 +54,29 @@ protected signed long long void move_file(*fs_entry file, u32 *dest)
     return FFAIL;
 }
 
+protected signed long long void create_file(u32 path, u32 flg)
+{
+  *fs_entry new_file;
+  u32 last_accessed = getTime();
+  new_file->data_type = "FILE";
+  new_file->*path = path;
+  new_file->*flag = flg;
+  new_file->*save_loc = loc;
+  new_file->*last_accessed = last_accessed;
+  return new_file;
+}
+
+protected signed long long void create_folder(u32 path)
+{
+  *fs_entry new_folder;
+  u32 last_accessed = getTime();
+  u32 loc = getNextLoc();
+  new_folder->data_type = "FOLDER";
+  new_folder->*path = path;
+  new_folder->*flag = "drw";
+  new_folder->*save_loc = loc;
+  new_folder->*last_accessed = last_accessed;
+  return new_folder;
+}
+
 #endif //fs_kifs_h
